@@ -1,0 +1,14 @@
+{
+  "name": "penguin",
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "sass --watch --update --style=expanded scss:css",
+    "build": "sass --no-source-map --style=compressed scss:css"   
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "sass": "^1.85.1"
+  }
+}
